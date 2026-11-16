@@ -1,9 +1,3 @@
-// Paste the contents of Portfolio.jsx from the code editor here
-// export default function App() {
-//   return <div>Replace src/App.jsx with Portfolio.jsx</div>;
-// }
-
-
 import React, { useState, useEffect, useRef } from 'react';
 import {
   Terminal,
@@ -42,13 +36,6 @@ import {
   Loader2
 } from 'lucide-react';
 
-/**
- * ============================================================================
- * EXECUTIVE SWISS EDITORIAL PORTFOLIO CONFIGURATION
- * Curated from SWE Resume (Internship, Skills, RAG/PM Projects, Achievements)
- * & TPI CV (Twitter Sentiment Analysis NLP Pipeline)
- * ============================================================================
- */
 const PROFILE_DATA = {
   brandTitle: 'SHASWATA.DEV',
   fullName: 'Shaswata Biswas',
@@ -1224,3 +1211,11 @@ export default function App() {
     </div>
   );
 }
+
+/**
+ * ============================================================================
+ * EXECUTIVE SWISS EDITORIAL PORTFOLIO CONFIGURATION
+ * Curated from SWE Resume (Internship, Skills, RAG/PM Projects, Achievements)
+ * & TPI CV (Twitter Sentiment Analysis NLP Pipeline)
+ * ============================================================================
+ */
